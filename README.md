@@ -7,7 +7,7 @@
 - ACF Plugin installiert und konfiguriert - Vereine angelegt
 - React-Leaflet für Map und Anzeige der Vereine auf Wordpress
 - React Mui Material für UI-Komponenten, wie Buttons und Accordion 
-- ** Im Vergleich zur Präsentation, wurde die Anzeige der Marker auf dem headless CMS noch gefixed. Die Vereine werden nun auf der Karte angezeigt ** 
+- **Im Vergleich zur Präsentation, wurde die Anzeige der Marker auf dem headless CMS noch gefixed. Die Vereine werden nun auf der Karte angezeigt** 
 
 ## ToDos
 - Die Auto-Suggestions bzw. Proposals für das Suchfeld funktionieren leider nicht.
