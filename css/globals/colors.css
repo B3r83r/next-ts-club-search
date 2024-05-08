@@ -1,0 +1,45 @@
+:root {
+	/*  Signalisiere, dass die Seite helle und dunkle Darstellung unterstützt.
+	https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-handling-user-agent-styles */
+	/* 	color-scheme: light dark; */
+
+	/* Hier eigene Farben definieren oder Farben von OpenProps nehmen.
+	https://open-props.style/#colors
+	*/
+	--red: var(--red-12);
+	--moos: var(--jungle-12);
+	--sage: var(--sand-4);
+	--pink: var(--pink-8);
+	/* Fast schwarz oder weiß. Texte mit vollem Schwarz-Weiß-Kontrast
+	sind schwerer zu lesen also welche mit leicht reduziertem Kontrast. */
+	--off-white: var(--stone-4);
+	--off-black: var(--gray-11);
+	/*  Variablennamen zum Beschreiben der Funktion */
+	--body-background: var(--off-white);
+
+	--text-color: var(--off-black);
+	--heading-color: var(--sage);
+	--link-color: var(--pink);
+	--link-color-active: var(--sage);
+	/* --nav-link-color: var();
+	--nav-active-link-color: var();*/
+	--button-color: var(--off-white);
+	--button-background-color: var(--moos);
+	--button-border-color: var(--moos);
+	--header-footer-background-color: var(--off-black);
+	--header-footer-color: var(--off-white);
+	--map-placeholder-color: var(--sage);
+
+	--ok-color: var(--moos);
+	--warn-color: var(--red);
+
+	@media (prefers-color-scheme: dark) {
+	}
+}
+
+* {
+	transition:
+		color,
+		background-color,
+		border-color 0.5s ease;
+}

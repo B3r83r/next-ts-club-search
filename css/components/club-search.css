@@ -1,0 +1,30 @@
+.club-search {
+	.club-search__error {
+		display: block;
+	}
+	.club-search__form {
+		display: inline-block;
+	}
+	button {
+		margin-left: 0.5em;
+	}
+	.club-search__show-map,
+	.club-search__show-all {
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+		width: 100%;
+		max-width: 1120px;
+		height: 496px;
+		background-color: var(--map-placeholder-color);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		small {
+			display: block;
+		}
+	}
+	.accordion-list {
+		margin-block: 3rem;
+	}
+}
